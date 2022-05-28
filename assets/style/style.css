@@ -170,12 +170,13 @@ h2{
 }
 
 /* ROADMAP */
-.roadContainer{
-    display: flex;
-    justify-content: center;
-}
+
 .road{
     height: 200px;
     width: 90%;
     border: 1px solid black;
+}
+/* footer*/
+footer p{
+    text-align: center;
 }
