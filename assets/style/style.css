@@ -1,3 +1,6 @@
+header{
+    width: 100%;
+}
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +22,7 @@ nav {
     display: grid;
     grid-template-columns: 10% 1fr 1fr 10%;
     min-height: 12vh;
-    color: white;
+    color:white;
     align-items: center;
 }
 
@@ -93,31 +96,17 @@ section {
     /* toussa pour ça je crois */
     opacity: 0.3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Partie Menu */
 
 .overlay {
   
     height: 100%;
-    width: 300px;
+    width: 100%;
     position: fixed; 
     z-index: 10; 
-    right: -300px;
+    right: -4000px;
     top: 0;
-
+    
     background-color: rgba(0,0,0,1); 
     overflow-x: hidden; 
     transition: 0.5s; 
@@ -125,7 +114,7 @@ section {
 
 .overlay-content {
     position: relative;
-    top: 30%; 
+    top: 10%; 
     width: 100%;
     text-align: center; 
 
@@ -155,3 +144,38 @@ section {
     font-size: 60px;
 }
 
+/* SEPARATEUR DE SECTION*/
+
+.separateur img{
+    margin-top: 50px;
+    width: 100%;
+    object-fit: cover;
+    height: 80px;
+}
+
+/* DESCRIPTION DE L'ACTIVITE */
+h2{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    margin: 60px;
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+}
+
+/* ROADMAP */
+.roadContainer{
+    display: flex;
+    justify-content: center;
+}
+.road{
+    height: 200px;
+    width: 90%;
+    border: 1px solid black;
+}

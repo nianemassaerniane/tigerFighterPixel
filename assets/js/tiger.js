@@ -25,6 +25,6 @@ hamburger.addEventListener('click', function(){
 })
 
 btnClose.addEventListener('click', function(){
-    TweenMax.to(nav, 0.1,{right:-300});
+    TweenMax.to(nav, 0.1,{right:-4000});
 })
 
