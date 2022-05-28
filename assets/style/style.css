@@ -1,3 +1,6 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+}
 header{
     width: 100%;
 }
@@ -17,6 +20,7 @@ header{
     background: linear-gradient(to left, #c5d5cb, #e3e0cf);
     z-index: -1;
 }
+
 /* Header */
 nav {
     display: grid;
@@ -67,6 +71,7 @@ section {
     object-fit: cover;
 }
 
+
 .lettres {
     margin: 0;
     padding: 0;
@@ -74,20 +79,26 @@ section {
 }
 
 .titre {
+    display: flex;
+    
     position: absolute;
-    top: 70%;
-    left: 10%;
-    font-size: 100px;
+    top: 110%;
+    left: 50%;
+    margin: 0 20px;
+    font-size: 10px;
     transform: translate(-20%, -70%);
     color: orange;
     /* pour le mettre devant */
     z-index: 3;
 }
+.titre i{
+    margin: 0 20px;
+}
 
 /* relatif à banniere, pour rajouter un filtre */
 .banniere::after {
     content: "";
-    background: #000;
+    background:white;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -155,6 +166,7 @@ section {
 
 /* DESCRIPTION DE L'ACTIVITE */
 h2{
+    margin-top: 22px;
     text-align: center;
 }
 .container{
@@ -172,11 +184,16 @@ h2{
 /* ROADMAP */
 
 .road{
+    margin-top: 22px;
     height: 200px;
     width: 90%;
     border: 1px solid black;
 }
 /* footer*/
+footer{
+    height: 100px;
+}
 footer p{
+    margin-top: 50px;
     text-align: center;
 }

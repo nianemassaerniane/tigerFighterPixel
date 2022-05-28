@@ -28,3 +28,4 @@ btnClose.addEventListener('click', function(){
     TweenMax.to(nav, 0.1,{right:-4000});
 })
 
+
